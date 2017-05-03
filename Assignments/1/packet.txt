@@ -1,0 +1,4 @@
+1246 -- 2951 Google SSL (Mail?) (TLS) Port 443
+3329 -- Yahoo SSL (Mail?) (TLS) Port 443
+13756 -- http://www.cnn.com/
+45974 -- http://www.nytimes.com/

